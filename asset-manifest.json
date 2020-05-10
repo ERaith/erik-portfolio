@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/erik-portfolio/static/css/main.5f361e03.chunk.css",
+    "main.js": "/erik-portfolio/static/js/main.3bf26013.chunk.js",
+    "main.js.map": "/erik-portfolio/static/js/main.3bf26013.chunk.js.map",
+    "runtime-main.js": "/erik-portfolio/static/js/runtime-main.321dcb1e.js",
+    "runtime-main.js.map": "/erik-portfolio/static/js/runtime-main.321dcb1e.js.map",
+    "static/js/2.c9418834.chunk.js": "/erik-portfolio/static/js/2.c9418834.chunk.js",
+    "static/js/2.c9418834.chunk.js.map": "/erik-portfolio/static/js/2.c9418834.chunk.js.map",
+    "index.html": "/erik-portfolio/index.html",
+    "precache-manifest.86970e8dc7b030f11ae3c7b6abd47e96.js": "/erik-portfolio/precache-manifest.86970e8dc7b030f11ae3c7b6abd47e96.js",
+    "service-worker.js": "/erik-portfolio/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/erik-portfolio/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.c9418834.chunk.js.LICENSE.txt": "/erik-portfolio/static/js/2.c9418834.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/erik-portfolio/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.321dcb1e.js",
+    "static/js/2.c9418834.chunk.js",
+    "static/css/main.5f361e03.chunk.css",
+    "static/js/main.3bf26013.chunk.js"
+  ]
+}
