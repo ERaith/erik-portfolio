@@ -3,7 +3,17 @@ $primary-background :  #282c34;
 
 
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display:flex;
+  justify-content: center;
+}
+
+.about-content{
+  width: 800px;
 }
 
 .App-logo {

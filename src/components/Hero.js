@@ -4,10 +4,10 @@ export const Hero = () => {
   return (
     <article className = "hero">
       <h1>
-        Erik Raith
+        ERIK RAITH
       </h1>
       <h3>
-        FE Dev
+        FRONTEND DEVELOPER
       </h3>
     </article>
   )

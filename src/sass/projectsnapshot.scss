@@ -4,8 +4,8 @@ $accent-theme-color2: #8D909B;
 $dark-theme-color: #101010;
 $light-theme-color: #fff;
 
-$portfolio-item-width: 400px;
-$portfolio-item-height: 400px;
+$portfolio-item-width: 900px;
+$portfolio-item-height: 600px;
 
 $portfolio-item-info-offset: 7px;
 
@@ -38,7 +38,6 @@ $portfolio-link-offset: 10px;
 
   img {
     @include position-absolute($top: 50%, $left: 50%);
-
     width: auto;
     height: auto;
     min-width: 100%;
@@ -52,6 +51,7 @@ $portfolio-link-offset: 10px;
 
 .portfolio-effect {
   display: flex;
+  margin: 1em;
   justify-content: space-between;
 }
 

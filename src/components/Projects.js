@@ -17,7 +17,7 @@ export const Projects = () => {
     })
   }
   return  (
-    <div className = "projects-container">
+    <div className = "projects-container grey darken-2">
       {renderProjects()}
     </div>
   )

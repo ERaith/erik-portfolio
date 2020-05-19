@@ -3,7 +3,6 @@ import React, {useState}from "react";
 
 export const Projects = ({title,githuburl,imageurl}) => {
   return (
-    <div class="content-block__effect">
       <div class="portfolio-effect">
         <div class="portfolio-item portfolio-effect__item portfolio-item--eff1">
           <img
@@ -25,7 +24,6 @@ export const Projects = ({title,githuburl,imageurl}) => {
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
