@@ -11,8 +11,8 @@ export default class App extends Component {
       <div>
         <Navigation/>
         <Hero/>
-        <Projects/>
         <About/>
+        <Projects/>
         <Footer/>
       </div>
     )

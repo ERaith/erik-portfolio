@@ -18,6 +18,9 @@ export const Projects = () => {
   }
   return  (
     <div className = "projects-container grey darken-2">
+      <div className = "project-header">
+        <h2>PROJECTS</h2>
+      </div>
       {renderProjects()}
     </div>
   )

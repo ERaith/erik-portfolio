@@ -17,8 +17,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1",
     "sass": "^1.26.5",
-    "sass-loader": "^8.0.2",
-    "webpack": "^4.43.0"
+    "sass-loader": "^8.0.2"
   },
   "scripts": {
     "start": "react-scripts start",

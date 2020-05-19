@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navigation = () => {
   return (
-    <nav className="nav-wrapper grey darken-2">
+    <nav className="nav-wrapper grey darken-4">
       <div className="container">
         <ul class="right hide-on-med-and-down">
           <li>

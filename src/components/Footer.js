@@ -9,14 +9,11 @@ export const Footer = () => {
     <footer class="page-footer">
       <div class="container">
         <div class="row">
-          <div class="col l6 s12">
-            <h5 class="white-text"></h5>
-            <p class="grey-text text-lighten-4">
-              You can use rows and columns here to organize your footer content.
-            </p>
-          </div>
+        <div class="col l6 s12">
+                <h5 class="white-text">Get in Contact</h5>
+                <p class="grey-text text-lighten-4">I would love to help bring your next website to life!</p>
+              </div>
           <div class="col l4 offset-l2 s12">
-            <h5 class="white-text">Links</h5>
             <a class="waves-effect waves-light btn-large social github">
               <img src={githubLogo} className="logo" alt="github logo" /> Find
               me on github
@@ -26,7 +23,7 @@ export const Footer = () => {
               touch!
             </a>
             <a class="waves-effect waves-light btn-large social linkedin">
-              <img src={linkedinLogo} className="logo" alt="linkedin logo" />{" "}
+              <img src={linkedinLogo} className="logo" alt="linkedin logo" />
               Connect to me on linkedin
             </a>
             {/* <a class="waves-effect waves-light btn-large social linkedin">
