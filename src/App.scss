@@ -1,7 +1,21 @@
-@import "~bootstrap/scss/bootstrap";
+
+$primary-background :  #282c34;
+
 
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  display:flex;
+  justify-content: center;
+  height:100vh;
+  align-items: center;
+}
+
+.about-content{
+  width: 800px;
 }
 
 .App-logo {
@@ -15,7 +29,7 @@
   }
 }
 
-.App-header {
+.hero {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -25,6 +39,7 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+
 
 .App-link {
   color: #61dafb;
@@ -39,4 +54,16 @@
   }
 }
 
+
+.nav{
+  background-color: $primary-background;
+}
+
+p{
+  font-size: 1.5em;
+}
+
+.mb-2{
+    margin:.5em;
+  }
 
