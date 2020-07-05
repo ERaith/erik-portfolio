@@ -1,7 +1,9 @@
 import React, {useState}from "react";
+import {
+  Link
+} from "react-router-dom";
 
-
-export const Projects = ({title,githuburl,imageurl}) => {
+export const Projects = ({title,githuburl,imageurl,project,routename}) => {
   return (
     <div class="content-block__effect">
       <div class="portfolio-effect">
@@ -17,9 +19,17 @@ export const Projects = ({title,githuburl,imageurl}) => {
 
             <div class="portfolio-item__links">
               <div class="portfolio-item__link-block">
-                <a class="portfolio-item__link" href={`${githuburl}`} title="Link Title">
+                <Link 
+                  to = {{
+                    pathname:`/projects/${routename}`,
+                    info:{project}
+                  }}
+                  
+                >
+                <a class="portfolio-item__link"  title="Link Title">
                   <i class="material-icons">Details</i>
                 </a>
+                </Link>
               </div>
               <div class="portfolio-item__link-block">
                 <a class="portfolio-item__link" href={`${githuburl}`} title="Link Title">

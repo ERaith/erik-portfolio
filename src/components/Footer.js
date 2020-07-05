@@ -6,15 +6,21 @@ import linkedinLogo from "../assets/linkedin-logo.svg";
 
 export const Footer = () => {
   return (
-    <footer class="page-footer">
+    <footer class="page-footer" id="contact">
       <div class="container">
         <div class="row">
-        <div class="col l6 s12">
-                <h5 class="white-text">Get in Contact</h5>
-                <p class="grey-text text-lighten-4">I would love to help bring your next website to life!</p>
-              </div>
+          <div class="col l6 s12">
+            <h5 class="white-text">Get in Contact</h5>
+            <p class="grey-text text-lighten-4">
+              I would love to help bring your next website to life!
+            </p>
+          </div>
           <div class="col l4 offset-l2 s12">
-            <a class="waves-effect waves-light btn-large social github">
+            <a
+              class="waves-effect waves-light btn-large social github"
+              href="https://github.com/ERaith"
+              target="_blank"
+            >
               <img src={githubLogo} className="logo" alt="github logo" /> Find
               me on github
             </a>
@@ -22,7 +28,11 @@ export const Footer = () => {
               <img src={gmailLogo} className="logo" alt="gmail logo" /> Get in
               touch!
             </a>
-            <a class="waves-effect waves-light btn-large social linkedin">
+            <a
+              class="waves-effect waves-light btn-large social linkedin"
+              href="https://www.linkedin.com/in/erik-raith-8b441969/"
+              target="_blank"
+            >
               <img src={linkedinLogo} className="logo" alt="linkedin logo" />
               Connect to me on linkedin
             </a>

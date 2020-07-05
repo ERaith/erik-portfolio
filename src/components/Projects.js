@@ -10,14 +10,15 @@ export const Projects = () => {
         <ProjectSnapshot 
           title= {project.title}
           githuburl= {project.githuburl}
-          about= {project.about}
           imageurl= {project.imageurl}
+          project = {project}
+          routename = {project.routename}
         />
       )
     })
   }
   return  (
-    <div className = "projects-container grey darken-2">
+    <div className = "projects-container grey darken-2" id="projects">
       <div className = "project-header">
         <h2>PROJECTS</h2>
       </div>
