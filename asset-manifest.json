@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "/erik-portfolio/static/css/main.5f361e03.chunk.css",
-    "main.js": "/erik-portfolio/static/js/main.3bf26013.chunk.js",
-    "main.js.map": "/erik-portfolio/static/js/main.3bf26013.chunk.js.map",
-    "runtime-main.js": "/erik-portfolio/static/js/runtime-main.321dcb1e.js",
-    "runtime-main.js.map": "/erik-portfolio/static/js/runtime-main.321dcb1e.js.map",
-    "static/js/2.c9418834.chunk.js": "/erik-portfolio/static/js/2.c9418834.chunk.js",
-    "static/js/2.c9418834.chunk.js.map": "/erik-portfolio/static/js/2.c9418834.chunk.js.map",
+    "main.css": "/erik-portfolio/static/css/main.67502273.chunk.css",
+    "main.js": "/erik-portfolio/static/js/main.dca2ed74.chunk.js",
+    "main.js.map": "/erik-portfolio/static/js/main.dca2ed74.chunk.js.map",
+    "runtime-main.js": "/erik-portfolio/static/js/runtime-main.189f486a.js",
+    "runtime-main.js.map": "/erik-portfolio/static/js/runtime-main.189f486a.js.map",
+    "static/js/2.b1124a97.chunk.js": "/erik-portfolio/static/js/2.b1124a97.chunk.js",
+    "static/js/2.b1124a97.chunk.js.map": "/erik-portfolio/static/js/2.b1124a97.chunk.js.map",
     "index.html": "/erik-portfolio/index.html",
-    "precache-manifest.86970e8dc7b030f11ae3c7b6abd47e96.js": "/erik-portfolio/precache-manifest.86970e8dc7b030f11ae3c7b6abd47e96.js",
+    "precache-manifest.dedefc7af2a506d04fb83b6145971734.js": "/erik-portfolio/precache-manifest.dedefc7af2a506d04fb83b6145971734.js",
     "service-worker.js": "/erik-portfolio/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/erik-portfolio/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c9418834.chunk.js.LICENSE.txt": "/erik-portfolio/static/js/2.c9418834.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/erik-portfolio/static/media/logo.5d5d9eef.svg"
+    "static/css/main.67502273.chunk.css.map": "/erik-portfolio/static/css/main.67502273.chunk.css.map",
+    "static/js/2.b1124a97.chunk.js.LICENSE.txt": "/erik-portfolio/static/js/2.b1124a97.chunk.js.LICENSE.txt",
+    "static/media/github-logo.svg": "/erik-portfolio/static/media/github-logo.e7ab06e1.svg",
+    "static/media/gmail-logo.svg": "/erik-portfolio/static/media/gmail-logo.185bfa52.svg",
+    "static/media/linkedin-logo.svg": "/erik-portfolio/static/media/linkedin-logo.97ce31c8.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.321dcb1e.js",
-    "static/js/2.c9418834.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.3bf26013.chunk.js"
+    "static/js/runtime-main.189f486a.js",
+    "static/js/2.b1124a97.chunk.js",
+    "static/css/main.67502273.chunk.css",
+    "static/js/main.dca2ed74.chunk.js"
   ]
 }
