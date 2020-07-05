@@ -6,11 +6,11 @@ import About from "./components/About";
 import Footer from "./components/Footer";
 import Project from "./components/Project";
 import "./App.scss";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { BrowserRouter as Router, Route, HashRouter } from "react-router-dom";
 export default class App extends Component {
   render() {
     return (
-      <Router>
+      <HashRouter basename = "/">
         <Route path="/" component={Navigation}/>
         <Route exact path="/" component={Hero}/>
         <Route exact path="/" component={About}/>
@@ -18,7 +18,7 @@ export default class App extends Component {
         <Route exact path="/projects/:id" component={Project}/>
         <Route path="/" component={Footer}/>
 
-      </Router>
+      </HashRouter>
     );
   }
 }
