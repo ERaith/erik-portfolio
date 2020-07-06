@@ -11,13 +11,7 @@ const Navigation = () => {
         <div class="col s6 m6 l6">
           <ul class="right hide-on-med-and-down">
             <li>
-              <a href="#about">About Me</a>
-            </li>
-            <li>
-              <a href="#projects">Projects</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="https://drive.google.com/file/d/1r5uF5ylc3iBMrDTMSyeQIgcYOZzRFVq6/view?usp=sharing">Resume</a>
             </li>
           </ul>
         </div>

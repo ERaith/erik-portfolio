@@ -12,7 +12,7 @@ export default class App extends Component {
     return (
       <HashRouter basename = "/">
         <Route path="/" component={Navigation}/>
-        <Route exact path="/" component={Hero}/>
+        {/* <Route exact path="/" component={Hero}/> */}
         <Route exact path="/" component={About}/>
         <Route exact path="/" component={Projects}/>
         <Route exact path="/projects/:id" component={Project}/>

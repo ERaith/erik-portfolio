@@ -19,9 +19,16 @@ export const Project = (props) => {
     return badgeHTML;
   };
 
+  const renderList = () => {
+    const list = challenges.text.map((item) => {
+      return <li>{item}</li>;
+    });
+    return list;
+  };
+
   const renderProject = () => {
     return (
-      <div className="grey darken-2 spacer" id="projects">
+      <div className="grey lighten-2 spacer" id="projects">
         <div class="row">
           <div class="col s7 m7 l7 p-5">
             <div class="row">
@@ -36,9 +43,13 @@ export const Project = (props) => {
           </div>
           <div class="col s5 m5 l5 p-2">
             <div class="row">
-              <h3 class="white-text">{project.title}</h3>
-              <div class="col s12 m12 l12 ">Github Link: <a href={project.githuburl}>{project.githuburl}</a></div>
-              <div class="col s12 m12 l12 ">Live Link: <a href={project.liveSite}>{project.liveSite}</a></div>
+              <h3 class="">{project.title}</h3>
+              <div class="col s12 m12 l12 ">
+                Github Link: <a href={project.githuburl}>{project.githuburl}</a>
+              </div>
+              <div class="col s12 m12 l12 ">
+                Live Link: <a href={project.liveSite}>{project.liveSite}</a>
+              </div>
               <div class="col s12 m12 l12 ">{renderBadges()}</div>
             </div>
 
@@ -53,7 +64,7 @@ export const Project = (props) => {
                 <strong>Challenges</strong>
               </p>
 
-              <p>{challenges.text}</p>
+              <ul>{renderList()}</ul>
             </div>
             <div class="row">
               <p>
