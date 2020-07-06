@@ -16,7 +16,7 @@ export const projectList = {
         },
 
         challenges: {
-          text: "challenges",
+          text: [],
           url:
             "https://user-images.githubusercontent.com/6379500/86557045-3e137300-bf12-11ea-8d4b-2c0c19701079.png",
         },
@@ -45,7 +45,7 @@ export const projectList = {
         },
 
         challenges: {
-          text: "challenges",
+          text: [],
           url:
             "https://user-images.githubusercontent.com/6379500/86557052-410e6380-bf12-11ea-97e7-e674ff0e6584.png",
         },
@@ -146,12 +146,12 @@ export const projectList = {
         },
 
         challenges: {
-          text: "challenges",
+          text: [],
           url:
             "https://user-images.githubusercontent.com/6379500/86557052-410e6380-bf12-11ea-97e7-e674ff0e6584.png",
         },
         wins: {
-          text: [],
+          text: "",
           url:
             "https://user-images.githubusercontent.com/6379500/86557055-423f9080-bf12-11ea-9fa9-a2d00c49c364.png",
         },
