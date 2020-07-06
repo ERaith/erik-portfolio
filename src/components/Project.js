@@ -11,7 +11,9 @@ export const Project = (props) => {
   const renderBadges = () => {
     const badgeHTML = stackBadges.map((badge) => {
       return (
-        <span class="col-content s12 m12 l2 mb-2 white-text badge blue">{badge}</span>
+        <span class="col-content s12 m12 l2 mb-2 white-text badge blue">
+          {badge}
+        </span>
       );
     });
     return badgeHTML;
@@ -19,40 +21,47 @@ export const Project = (props) => {
 
   const renderProject = () => {
     return (
-      <div className="container grey darken-2" id="projects">
-        <div class="row valign-wrapper">
-          <div class="col s12 m8 l8 center-align">
-            <h2 class="white-text">{project.title}</h2>
-          </div>
-          <div class="col s4 m4 l4 ">{renderBadges()}</div>
-        </div>
+      <div className="grey darken-2 spacer" id="projects">
         <div class="row">
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l6">
-            <img class="responsive-img" src={about.url}></img>
+          <div class="col s7 m7 l7 p-5">
+            <div class="row">
+              <img class="responsive-img" src={about.url}></img>
+            </div>
+            <div class="row">
+              <img class="responsive-img" src={challenges.url}></img>
+            </div>
+            <div class="row">
+              <img class="responsive-img" src={wins.url}></img>
+            </div>
           </div>
-          <div class="col s12 m12 l6">
-            <h4>About</h4>
-            <p>{about.text}</p>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l6">
-          <h4>Challenges</h4>
-            <p>{challenges.text}</p>
-          </div>
-          <div class="col s12 m12 l6">
-            <img class="responsive-img" src={challenges.url}></img>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col s12 m12 l6">
-            <img class="responsive-img" src={wins.url}></img>
-          </div>
-          <div class="col s12 m12 l6">
-          <h4>Wins</h4>
-            <p>{wins.text}</p>
+          <div class="col s5 m5 l5 p-2">
+            <div class="row">
+              <h3 class="white-text">{project.title}</h3>
+              <div class="col s12 m12 l12 ">Github Link: <a href={project.githuburl}>{project.githuburl}</a></div>
+              <div class="col s12 m12 l12 ">Live Link: <a href={project.liveSite}>{project.liveSite}</a></div>
+              <div class="col s12 m12 l12 ">{renderBadges()}</div>
+            </div>
+
+            <div class="row">
+              <p>
+                <strong>Description</strong>
+              </p>
+              <p>{about.text}</p>
+            </div>
+            <div class="row">
+              <p>
+                <strong>Challenges</strong>
+              </p>
+
+              <p>{challenges.text}</p>
+            </div>
+            <div class="row">
+              <p>
+                <strong>Wins</strong>
+              </p>
+
+              <p>{wins.text}</p>
+            </div>
           </div>
         </div>
       </div>

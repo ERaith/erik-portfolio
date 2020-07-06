@@ -15,24 +15,11 @@ export const Projects = ({
         info: { project },
       }}
     >
-      <div class="col s12 m12 l6 xl4">
-        <div class="portfolio-effect">
-          <div class="portfolio-item portfolio-effect__item portfolio-item--eff1">
-            <img
-              class="responsive-img"
-              src={`${imageurl}`}
-              alt="Portfolio Item"
-            />
-
-            <div class="portfolio-item__info">
-              <h3 class="portfolio-item__header">{title}</h3>
-
-              <div class="portfolio-item__links">
-                <div class="portfolio-item__link-block"></div>
-              </div>
-            </div>
-          </div>
+      <div class="col s12 m12 l6 xl4 wrapper">
+        <div class="overlay">
+          <div class="content">{title}</div>
         </div>
+        <img class="responsive-img" src={imageurl} />
       </div>
     </Link>
   );

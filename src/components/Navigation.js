@@ -4,8 +4,6 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <nav className="nav-wrapper grey darken-4 header-spacing">
-      <div class="container">
-
       <div class="row">
         <div class="col s6 m6 l6">
           <h4>ERIK RAITH</h4>
@@ -23,7 +21,6 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-      </div>
       </div>
     </nav>
   );
