@@ -22,19 +22,6 @@
 
 
 
-
-// .fa-linkedin {
-//   background-image: url(./LI-In-Bug.png);
-// }
-// .fa-github {
-//   background-image: url(../assets/github-logo.svg);
-// }
-// .fa-gmail {
-//   background-image: url(../assets/gmail.svg);
-// }
-
-
-
 @mixin social($color-bg, $color: #fff){
   background-color: $color-bg !important;
   color:$color !important;

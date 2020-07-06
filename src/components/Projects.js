@@ -18,11 +18,11 @@ export const Projects = () => {
     })
   }
   return  (
-    <div className = "projects-container grey darken-2" id="projects">
-      <div className = "project-header">
-        <h2>PROJECTS</h2>
-      </div>
+    <div className = "projects-container  grey darken-2" id="projects">
+      <div class="row">
       {renderProjects()}
+
+      </div>
     </div>
   )
 
