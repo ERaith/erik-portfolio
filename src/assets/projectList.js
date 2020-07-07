@@ -44,6 +44,49 @@ export const projectList = {
       },
     },
     {
+      title: "VoteQ",
+      routename: "VoteQ",
+      githuburl: "https://github.com/QueueTheVote/Vote-Q-FE",
+      liveSite: "",
+      imageurl:
+        "https://user-images.githubusercontent.com/27719824/84600656-393e3080-ae38-11ea-9ef4-9e5076b49db2.png",
+      description: {
+        about: {
+          text:
+            "This application was developed over the course of 4 days. It is built with React and React-Bootstrap on the FrontEnd with a Scala BackEnd and PostgreSQL database. The app consumes the Google Civic Information API as well as the Google Maps API. The idea of the application was inspired by recent primary elections in states like Wisconsin and Georgia, which were characterized by long lines, large crowds, and lack of direction by government officials. The solution is to apply what restaurants do: establish a digital queue that notifies users their current position and estimated wait time, so they can show up to the voting center when the voting center is ready to receive them. In the context of the Black Lives Matter movement, the application hopes to assist voters to be prepared to overcome forms of voter suppression, while also providing a means to vote safely and efficiently during the Covid-19 pandemic, two forces that have disproportionately impacted the Black community.
+             ",
+          url:
+            "https://user-images.githubusercontent.com/27719824/84600656-393e3080-ae38-11ea-9ef4-9e5076b49db2.png",
+        },
+
+        challenges: {
+          text: [
+            "Work on a Team over 4 days to help create an app to help with Voting!",
+            "Help our Shadow contribute and dive in deep with the Tech Stack Used",
+            "Write clean code.",
+            "Use React Hooks.",
+            
+
+          ],
+          url:
+            "https://user-images.githubusercontent.com/27719824/84600767-00528b80-ae39-11ea-8601-150ed9ba2a60.png",
+        },
+        wins: {
+          text: "In future iterations of this application, our team hopes to incorporate a voting center portal, where voting centers will be able to manage their respective queues. We also hope to have web sockets and progressive web app functionality so that information remains up to date, while other information is cached in the event that a user does not have a stable internet connection.  Additionally, we hope to aggregate and embed all the available resources for voters into the application making it a one-stop shop for having a seamless voting experience.",
+          url:
+            "https://user-images.githubusercontent.com/27719824/84601684-5de9d680-ae3f-11ea-8829-dc560c944324.png",
+        },
+        stack: "stack description",
+        stackBadges: [
+        "React",
+        "React-Bootstrap",
+        "Scala",
+        "PostgreSQL",
+        
+],
+      },
+    },
+    {
       title: "Root Directory",
       routename: "RootDirectory",
       githuburl: "https://github.com/root-directory/leaves",
