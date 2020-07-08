@@ -30,7 +30,7 @@ export const Project = (props) => {
     return (
       <div className="grey lighten-2 spacer" id="projects">
         <div class="row">
-          <div class="col s7 m7 l7 p-5">
+          <div class="col s12 m12 l7 p-5">
             <div class="row">
               <img class="responsive-img" src={about.url}></img>
             </div>
@@ -41,7 +41,7 @@ export const Project = (props) => {
               <img class="responsive-img" src={wins.url}></img>
             </div>
           </div>
-          <div class="col s5 m5 l5 p-2">
+          <div class="col s12 m12 l5 p-2">
             <div class="row">
               <h3 class="">{project.title}</h3>
               <div class="col s12 m12 l12 ">
